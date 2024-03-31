@@ -1,0 +1,267 @@
+body {
+    font-family: 'Lora', serif; 
+    margin: 0;
+    padding: 0;
+    height: auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background-color: rgb(12, 114, 12); 
+    padding: 10px 0;
+    color: white; 
+    text-align: center; 
+  }
+  .logo-text {
+    font-family: 'Candal', sans-serif;
+    color: white; 
+    font-size: 30px; 
+    margin: 0;
+  }
+  .nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    margin: 0 10px; 
+  }
+  .nav li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 21px; 
+    
+    
+  }
+  .nav li a:hover {
+   color: rgb(15, 14, 14);
+    transition: 0.3s;
+  }
+  .defense{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+    margin-top: 3%;
+  }
+  .defenseT{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .service-branchesH{
+    text-align: center;
+  font-family: 'Candal',sans-serif;
+  color: rgb(4, 84, 4);
+  }
+  .service-branchesimages {
+    display: flex;
+    align-items: center; 
+    width: 90%;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 4%;
+    }
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+    .armyH,.navyH,.airforceH{
+      text-align: center;
+     
+      font-size: 23px;
+      color: black;
+    }
+      .pakistan-army,.pakistan-airforce{
+        width: 100%;
+        margin: 30px auto 30px;
+        border: none;
+        padding-bottom: 0%;
+        margin-top: 5%;
+      }
+      
+       .pakistanarmycontent{
+        width :95%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 25px;
+       
+      }
+       .Pakistanarmyimg{
+      width: 40%;
+      height: auto;
+      float: left;
+      padding-left: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+      
+      }
+      
+      
+      .pakistanarmyH, .pakistanairforceH,.pakistannavyH{
+      
+        
+            text-align: center;
+          font-family: 'Candal',sans-serif;
+          color: rgb(4, 84, 4);
+        
+      }
+      .pakistanarmyT, .pakistanairforceT.pakistannavyT{
+        font: 'Arial',sans-serif;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+      }
+     
+      
+       .pakistanairforcecontent{
+        width :95%;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 25px;
+       
+      }
+       .Pakistanairforceimg{
+      widows: 40%;
+      height: auto;
+      float: right;
+      padding-left: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+      
+      }
+    
+      .pakistan-navy{
+        width: 100%;
+        margin: 30px auto 30px;
+        border: none;
+        padding-bottom: 5%;
+        margin-top: 5%;
+      }
+      
+       .pakistannavycontent{
+        width :95%;
+        height:auto;
+        margin: 10px auto;
+        border-radius: 25px;
+       
+      }
+       .Pakistannavyimg{
+      widows: 40%;
+      height: auto;
+      float: left;
+      padding-left: 1%;
+      padding-right: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+      
+      }
+      
+      /* Cities */
+
+      .Lahore,.Islamabad,.Karachi{
+        width: 90%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 3%;
+        
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+      .destinations{
+        margin-top: 5%;
+        text-align: center;
+        font-family: 'Candal',sans-serif;
+        color: rgb(5, 165, 90);
+      }
+      .collage {
+        display: flex;
+        align-items: center; 
+        width: 78%;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 10%;
+        
+        }
+        .LahoreFortimg,.LahoreMuseumimg,.MinarePakistanimg,.ShalimarGardenimg,
+        .monumentimg,.faisalmosqueimg,.supremecourtimg,.islamabadexpresswayimg,
+        .mizarimg,.mohattapalaceimg,.hawkesbayimg,.karachiportimg{
+          width:450px;
+          height: 250px;
+        }
+      
+        .LahoreFort,.LahoreMuseum,.MinarePakistan,.ShalimarGarden,
+        .pakistanmonument,.faisalmosque,.supremecourt,.islamabadexpressway,
+        .mizar,.mohattapalace,.hawkesbay,.karachiport{
+          text-align: center;
+         
+          font-size: 23px;
+          color: black;
+        }
+        
+      
+        .islamabadT,.karachiT,.lahoreT{
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-bottom: 5%;
+        }
+        .islamabadH,.lahoreH,.karachiH{
+          text-align: center;
+          font-family: 'Candal',sans-serif;
+          color: rgb(4, 84, 4);
+        
+        }
+      
+        
+          /* 
+    Footer Section */
+    
+  footer{
+    background: black;
+    padding-top: 50px;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .footer-content{
+      color: white;
+    }
+    .container{
+      width: 100%;
+     
+      display: flex;
+                align-items: center; 
+    
+                height: auto;
+                justify-content: space-between;
+                margin-left: 5%;
+    }
+    .headings{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: rgb(12, 114, 12);
+    text-align:left ;
+    }
+    .bottombar{
+      color: rgb(241, 241, 241);
+      text-align: center;
+    }
+    .footer-content ul {
+      list-style: none;
+      padding-bottom: 0px;
+    }
+    
+    
+    
+    
+    .footer-content ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+    .footer-content ul li a:hover {
+      text-decoration: none;
+      color:rgb(12, 114, 12);
+      transition: 0.3s;
+    }

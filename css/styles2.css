@@ -1,0 +1,237 @@
+body {
+    font-family: 'Lora', serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%
+  }
+  
+  header {
+    background-color: rgb(12, 114, 12); 
+    padding: 10px 0; 
+    color: white;
+    text-align: center; 
+  }
+  .logo-text {
+    font-family: 'Candal', sans-serif;
+    color: white;
+    font-size: 30px; 
+    margin: 0;
+  }
+  .nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .nav li a {
+    color: white; 
+    text-decoration: none;
+    font-size: 21px; 
+    
+    
+  }
+  .nav li a:hover {
+   color: rgb(15, 14, 14);
+    transition: 0.3s;
+  }
+  .sports{
+    width: 80%;
+    height: auto;
+  padding-left: 10%;
+  margin-top: 3%;
+  }
+  .text{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .Cricket{
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+  }
+  .cricket{
+    text-align: center;
+    font-family: 'Candal', sans-serif;
+      color: rgb(4, 84, 4);
+      text-align: center;
+  }
+  .cricket-text{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .cricket-text2{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .cricket-text3{
+    text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+.tapeball,.PCT{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.collage {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    margin-left: 8%;
+    }
+    .cup1992{
+      text-align: center;
+     
+      font-size: 23px;
+      color: black;
+    }
+    .wc2009{
+      text-align: center;
+      font-size: 23px;
+      color: black;
+    }
+    
+    .wc2017{
+      text-align: center;
+     
+      font-size: 23px;
+      color: black;
+    }
+    .wc2007{
+      text-align: center;
+      font-size: 23px;
+      color: black;
+    }
+    /*  */
+    .football{
+      width: 90%;
+      margin: 30px auto 30px;
+      border: none;
+      padding-bottom: 0%;
+      padding-top: 0%;
+    }
+    
+    
+    .footballimg{
+      widows: 40%;
+      height: auto;
+      float:  left;
+      padding-left: 1%;
+    
+      padding-bottom: 1%;
+      
+      }
+      .footballT{
+        font: 'Arial',sans-serif;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+      }
+       .footballH{
+        font-family: 'Candal', sans-serif;
+        color: rgb(4, 84, 4);
+        text-align: center;
+      }
+.localSports-content{
+  width: 90%;
+  height: auto;
+  padding-left: 5%;
+  /* justify-content: center; */
+}
+    .localSportsH{
+      text-align: center;
+      font-family: 'Candal', sans-serif;
+        color: rgb(4, 84, 4);
+        text-align: center;
+    }
+    .localSportsT{
+      text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+    }
+   
+      .kabaddiH{
+        text-align: center;
+       
+        font-size: 23px;
+        color: black;
+      }
+      .tentpeggingH{
+        text-align: center;
+        font-size: 23px;
+        color: black;
+      }
+    
+      .poloH{
+        text-align: center;
+       
+        font-size: 23px;
+        color: black;
+      }
+      .handballH{
+        text-align: center;
+        font-size: 23px;
+        color: black;
+      }
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+      .handballimg,.poloimg,.tentpeggingimg,.kabaddiimg{
+        width: 500px;
+        height: 300px;
+      }
+ /* 
+    Footer Section */
+    
+    footer{
+      background: black;
+      padding-top: 50px;
+      margin: 0%;
+      font-family: Arial, Helvetica, sans-serif;
+      }
+      .footer-content{
+        color: white;
+      }
+      .container{
+        width: 100%;
+       
+        display: flex;
+                  align-items: center; 
+      
+                  height: auto;
+                  justify-content: space-between;
+                  margin-left: 5%;
+      }
+      .headings{
+      font-size: 30px;
+      margin-bottom: 15px;
+      color: rgb(12, 114, 12);
+      text-align:left ;
+      }
+      .bottombar{
+        color: rgb(241, 241, 241);
+        text-align: center;
+      }
+      .footer-content ul {
+        list-style: none;
+        padding-bottom: 0px;
+      }
+      
+      
+      
+      
+      .footer-content ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+      
+      .footer-content ul li a:hover {
+        text-decoration: none;
+        color:rgb(12, 114, 12);
+        transition: 0.3s;
+      }
