@@ -66,6 +66,33 @@ body {
       max-width: 100%;
       height: auto;
     }
+    .Pakistanarmyimg{
+      width: 29%;
+      height: auto;
+      float: left;
+      padding-left: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+      
+    }
+    .Pakistanairforceimg{
+      width: 29%;
+      height: auto;
+      float: right;
+      padding-left: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+    }
+    .Pakistannavyimg{
+      width: 29%;
+      height: auto;
+      float: left;
+      padding-left: 1%;
+      padding-right: 1%;
+      padding-top: 0%;
+      padding-bottom: 1%;
+      
+    }
     .armyH,.navyH,.airforceH{
       text-align: center;
      
@@ -87,15 +114,7 @@ body {
         border-radius: 25px;
        
       }
-       .Pakistanarmyimg{
-      width: 40%;
-      height: auto;
-      float: left;
-      padding-left: 1%;
-      padding-top: 0%;
-      padding-bottom: 1%;
-      
-      }
+     
       
       
       .pakistanarmyH, .pakistanairforceH,.pakistannavyH{
@@ -121,16 +140,7 @@ body {
         border-radius: 25px;
        
       }
-       .Pakistanairforceimg{
-      widows: 40%;
-      height: auto;
-      float: right;
-      padding-left: 1%;
-      padding-top: 0%;
-      padding-bottom: 1%;
       
-      }
-    
       .pakistan-navy{
         width: 100%;
         margin: 30px auto 30px;
@@ -146,17 +156,7 @@ body {
         border-radius: 25px;
        
       }
-       .Pakistannavyimg{
-      widows: 40%;
-      height: auto;
-      float: left;
-      padding-left: 1%;
-      padding-right: 1%;
-      padding-top: 0%;
-      padding-bottom: 1%;
-      
-      }
-      
+   
       /* Cities */
 
       .Lahore,.Islamabad,.Karachi{
