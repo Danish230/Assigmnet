@@ -72,10 +72,19 @@ body {
     text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   }
-.tapeball,.PCT{
-    margin-left: 15%;
+.tapeball{
+    margin-left: 17%;
     margin-right: 15%;
+    width: 60%;
+    height: auto;
 }
+.PCT{
+  margin-left: 17%;
+  margin-right: 15%;
+  width: 60%;
+  height: auto;
+}
+
 .collage {
     display: flex;
     align-items: center; /* Align items vertically */
@@ -83,6 +92,11 @@ body {
     height: auto;
     justify-content: space-between;
     margin-left: 8%;
+    }
+
+    .img1992,.img2009,.img2017,.img2007{
+      width: 500px;
+      height: 300px;
     }
     .cup1992{
       text-align: center;
@@ -118,12 +132,14 @@ body {
     
     
     .footballimg{
-      widows: 40%;
+      width: 20%;
       height: auto;
-      float:  left;
+      float: left;
       padding-left: 1%;
-    
+      padding-right: 1%;
+      padding-top: 0%;
       padding-bottom: 1%;
+      
       
       }
       .footballT{
@@ -141,7 +157,7 @@ body {
   width: 90%;
   height: auto;
   padding-left: 5%;
-  /* justify-content: center; */
+ 
 }
     .localSportsH{
       text-align: center;
