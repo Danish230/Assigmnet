@@ -87,7 +87,7 @@ body {
 
 .collage {
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items: center; 
     width: 80%;
     height: auto;
     justify-content: space-between;
