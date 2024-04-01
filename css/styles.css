@@ -54,26 +54,38 @@ header {
 }
 
  .post1,.post2,.post3,.post4{
-  width :95%;
-  height: auto;
+  width :100%;
+  height: 30%;
   margin: 10px auto;
   border-radius: 25px;
  
 }
- .flag,.iqbal{
-width: 220px;
-height: 225px;
+ .flag{
+width: 20%;
+height: auto;
 float: left;;
 padding-right: 2%;
 padding-top: 0%;
 padding-bottom: 1%;
 
 }
+.iqbal{
+  width: 20%;
+  min-height: 15%;
+  max-height: auto ;
+  float: left;;
+  padding-right: 2%;
+  padding-top: 0%;
+  padding-bottom: 1%;
+  
+  }
+
 .text{
   font: 'Arial',sans-serif;
         border: none;
         border-radius: 20px;
         text-align: center;
+        margin-top: 1%;
 }
 .content2::after{
   content: '';
@@ -81,12 +93,25 @@ padding-bottom: 1%;
   clear: both;
 }
 
-.quaid,.fatima{
-  width: 220px;
-  height: 224px;
+.quaid{
+  
+    width: 20%;
+    min-height: 15%;
+    max-height: auto ;
+    float:  right;
+    padding-right: 1%;
+  
+    padding-bottom: 1%;
+    
+    }
+
+
+.fatima{
+  width: 20%;
+  height: auto;
   float:  right;
   padding-right: 1%;
-  padding-top: 5%;
+  padding-top: 0%;
   padding-bottom: 1%;
   
   }
@@ -94,66 +119,35 @@ padding-bottom: 1%;
    h1{
     font-family: 'Candal', sans-serif;
     color: rgb(4, 84, 4);
-    
+    width: auto;
+    height: auto;
   }
   .content3::after{
     content: '';
     display: block;
     clear: both;
   }
-
-  .iqbal{
-    widows: 40%;
-    height: 0%;
-    float:  left;
-
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 5%;
-    padding-bottom: 1%;
-    
-    }
-    
     .title{
       font-family: 'Candal', sans-serif;
       color: rgb(4, 84, 4);
       text-align: center;
-      padding-left: 20%;
+   
     }
     .title2{
       font-family: 'Candal', sans-serif;
       color: rgb(4, 84, 4);
       text-align: center;
-      padding-right: 24%;
+    
     }
     .content4::after{
       content: '';
       display: block;
       clear: both;
     }
-    .fatima{
-      widows: 40%;
-      height: 0%;
-      float:  right;
-  
-      padding-left: 2%;
-      padding-right: 2%;
-      padding-top: 5%;
-      padding-bottom: 1%;
-      
-      }
-      .text4{
-        font: 'Arial',sans-serif;
-        border: none;
-        text-align: center;
-        
-      
-      }
       .title3{
         font-family: 'Candal', sans-serif;
         color: rgb(4, 84, 4);
         text-align: center;
-        padding-left: 20%;
       }
       .post-slider{
        
@@ -185,8 +179,7 @@ padding-bottom: 1%;
 
       .posts {
         width: 19%;
-        min-height: 550px;
-        margin-right: 3%; 
+        height: auto;
         background-color: rgb(12, 114, 12);
         padding: 20px;
         border-radius: 20px;
@@ -211,9 +204,25 @@ padding-bottom: 1%;
         height: auto;
       }
     
-      .bhutto,.benazir,.liaqat,.imran{
-        float: left;
-
+      .bhutto{
+        float: center;
+        width: 100%;
+        height: auto;
+      }
+      .benazir{
+        float: center;
+        width: 100%;
+        height: auto;
+      }
+      .liaqat{
+        float: center;
+        width: 100%;
+        height: auto;
+      }
+      .imran{
+        float: center;
+        width: 100%;
+        height: auto;
       }
       .pB,.pBZ,.pLQ,.pIK{
         font: 'Arial',sans-serif;
@@ -259,7 +268,7 @@ padding-bottom: 1%;
 
 
  .literatureimg{
-widows: 40%;
+width: 29%;
 height: auto;
 float: left;;
 padding-right: 2%;
@@ -328,8 +337,8 @@ text-align: center;
     margin-top: 5%;
   }
    .Chaiimg{
-  widows: 40%;
-  height: 0%;
+ width: 25%;
+  height: auto;
   float: right;
   padding-left: 2%;
   padding-top: 0%;
@@ -397,10 +406,6 @@ text-align: center;
   height: 250px;
 }
 
-.Chaiimg{
-  width: 200px;
-   height: 200px;
-}
 .Men,
 .women {
   width: 300px;
